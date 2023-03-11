@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscribete</title>
+    <link rel="stylesheet" href="../assets/style/suscribete.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="../assets/image/BC.png" alt="logoSpa" />
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Quienes somos</a>
+            <a href="#">Contacto</a>
+            <a href="#">Suscribete</a>
+        </nav>
+    </header>
+
+</body>
+
+<main>
+    <section id="form">
+        <h1>Formulario de contacto</h1>
+        <h2>Si deseas recibir información sobre nuestros servicios y promociones mensuales, déjanos tus datos y nos comunicaremos mensualmente.</h2>
+        <form>
+            <div>
+                <label for="name">Nombre</label>
+                <input id="name" type="text" placeholder="Luna">
+
+            </div>
+            <div>
+                <label for="lastname">Apellido</label>
+                <input id="lastname" type="text" placeholder="Benitez">
+
+            </div>
+            <div>
+                <label for="email">Correo</label>
+                <input id="email" type="email" placeholder="ingrese correo" name="email">
+
+            </div>
+            <div>
+                <label for="age">Edad</label>
+                <input id="age" type="number" placeholder="22" min="18" max="60">
+
+            </div>
+            <div>
+                <label for="tel">Teléfono</label>
+                <input id="tel" type="tel" placeholder="9-1234567">
+
+            </div>
+            <div>
+                <input id="masculino" type="radio" value="masculino" name="genero">
+                <label for="masculino">masculino</label>
+
+                <input id="femenino" type="radio" value="femenino" name="genero">
+                <label for="femenino">femenino</label>
+
+                <input id="otro" type="radio" value="otro" name="genero">
+                <label for="otro">otro</label>
+            </div>
+            <div>
+                <p> Cómo deseas ser contactado </p>
+                <select id="contacto" name="contacto">
+                    <option value="tel">Llamada</option>
+                    <option value="wp">Whatsapp</option>
+                    <option value="email">Correo</option>
+                </select>
+
+                <p> En qué otro servicio estás interesado </p>
+                <input id="masaje-terapeutico" type="checkbox" value="masaje-terapeutico" name="servicio">
+                <label for="masaje-terapeutico"> Masaje Terapeutico </label>
+
+                <input id="botox" type="checkbox" value="botox" name="servicio">
+                <label for="español"> Botox </label>
+
+                <input id="relleno" type="checkbox" value="relleno" name="servicio">
+                <label for="relleno"> Relleno Facial </label>
+
+            </div>
+            <div>
+                <input id="submit" type="submit">
+            </div>
+
+        </form>
+    </section>
+</main>
+
+</html>
