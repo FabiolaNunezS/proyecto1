@@ -66,6 +66,7 @@
     padding: 0px 200px;
     padding-bottom: 30px;
     margin:auto;
+    margin-bottom: 40px;
 
 }
 
@@ -244,7 +245,6 @@ div .images img{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: black; */
 }
 
 .foot .group-1 .box figure img{
@@ -256,28 +256,46 @@ div .images img{
     color: rgb(63, 3, 63);
     margin-bottom: 15px;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
 
 }
 
-.foot .group-1 .box h3{
+.foot .group-1 .box h3 {
+    color: rgb(63, 3, 63);
+    margin-bottom: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.foot .group-1 .box h4{
     color: rgb(63, 3, 63);
     margin-bottom: 15px;
     margin-left: 45px;
     font-weight: 500;
     font-size: 15px;
     display: flex;
+    justify-content: left;
 }
 
 .foot .group-1 .box p{
     color:rgb(63, 3, 63);
     margin-bottom: 10px;
+    display: flex;
+    text-align: justify;
+
 }
 
-.foot .group-1 .box .red-social img{
-    height: 45px;
-    color: rgb(36, 34, 34);
+.red-social img{
     margin-left: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
+
 .foot .group-2{
     display: flex;
     text-align: center;
