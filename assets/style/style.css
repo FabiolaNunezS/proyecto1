@@ -139,14 +139,11 @@ div .images img{
     height: 250px;
 }
 
-
-
 .about{
     background-color: rgba(197, 192, 192, 0.733);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 120px;
-    margin-top: 8git0px;
+
 }
 
 .image-left img{
@@ -173,6 +170,11 @@ div .images img{
    font-size: 15px;
    font-weight: 400;
    padding: 20px;
+
+}
+
+.about .container-info{
+    padding: 30px;
 }
 
 .container-info .contact {
@@ -184,7 +186,11 @@ div .images img{
     border-radius: 5px;
     padding: 8px;
     margin-bottom: 40px;
-    margin-left: 200px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
 }
 
 .container-info .contact:hover{
